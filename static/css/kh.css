@@ -1,0 +1,249 @@
+body {
+  font-size: 16px;
+  padding: 0px;
+  margin: 0px;
+  color: black;
+  font-family: "inconsolata"; }
+  @media screen and (max-width: 1000px) {
+    body {
+      font-size: 16px; } }
+  @media screen and (max-width: 420px) {
+    body {
+      font-size: 16px; } }
+
+nav {
+  text-decoration: none;
+  list-style-type: none; }
+
+.parallax {
+  background-image: url("../img/engin-akyurt-oy4ZA__AlNM-unsplash-l.webp");
+  width: 100%;
+  min-height: 40vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  @media screen and (max-width: 1000px) {
+    .parallax {
+      display: none; } }
+  @media screen and (max-width: 420px) {
+    .parallax {
+      display: none; } }
+
+.parallax-medium {
+  background-image: url("../img/engin-akyurt-oy4ZA__AlNM-unsplash-m.webp");
+  width: auto;
+  min-height: 25vh;
+  background-attachment: fixed;
+  background-position-x: center;
+  background-position-y: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: none; }
+  @media screen and (max-width: 1000px) {
+    .parallax-medium {
+      display: block; } }
+  @media screen and (max-width: 420px) {
+    .parallax-medium {
+      display: none; } }
+
+.parallax-small {
+  background-image: url("../img/engin-akyurt-oy4ZA__AlNM-unsplash-s.webp");
+  width: auto;
+  min-height: 25vh;
+  background-attachment: fixed;
+  background-position-x: center;
+  background-position-y: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: none; }
+  @media screen and (max-width: 1000px) {
+    .parallax-small {
+      display: none; } }
+  @media screen and (max-width: 420px) {
+    .parallax-small {
+      display: block; } }
+
+h1, h2, h3 {
+  font-family: "caviar dreams", sans-serif;
+  text-align: center; }
+
+h1 {
+  font-size: 10em; }
+
+h2 {
+  font-size: 6em;
+  font-weight: bold; }
+
+h3 {
+  font-size: 3em; }
+
+h4 {
+  font-size: 42px; }
+
+h5 {
+  font-size: 38px; }
+
+.container-logo {
+  background-color: #393232ff;
+  margin: 0;
+  position: relative;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  box-sizing: content-box; }
+
+h1#h_mylogo {
+  font-weight: bolder;
+  padding-top: 30vh;
+  border: 20px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to left, #bb990fff, #bb6a0ffe);
+  color: #aeaeaeff;
+  margin: 0 10% 0 10%;
+  width: 680px; }
+  @media screen and (max-width: 1000px) {
+    h1#h_mylogo {
+      width: 450px;
+      padding-top: 30vh; } }
+  @media screen and (max-width: 420px) {
+    h1#h_mylogo {
+      width: 300px;
+      border: 5px solid;
+      border-image-slice: 1;
+      border-image-source: linear-gradient(to left, #bb990fff, #bb6a0ffe); } }
+
+.v {
+  font-family: z003; }
+
+.cont-img-l {
+  background-image: url("../img/jj-ying-7JX0-bfiuxQ-unsplash-l.webp");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 40vh;
+  overflow: hidden; }
+  @media screen and (max-width: 1000px) {
+    .cont-img-l {
+      display: none; } }
+  @media screen and (max-width: 420px) {
+    .cont-img-l {
+      display: none; } }
+
+.cont-img-m {
+  background-image: url("../img/jj-ying-7JX0-bfiuxQ-unsplash-m.webp");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+  padding: 15vh 0 15vh 0;
+  display: none; }
+  @media screen and (max-width: 1000px) {
+    .cont-img-m {
+      display: block; } }
+  @media screen and (max-width: 420px) {
+    .cont-img-m {
+      display: none; } }
+
+.cont-img-s {
+  background-image: url("../img/jj-ying-7JX0-bfiuxQ-unsplash-s.webp");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+  padding: 15vh 0 15vh 0;
+  display: none; }
+  @media screen and (max-width: 1000px) {
+    .cont-img-s {
+      display: none; } }
+  @media screen and (max-width: 420px) {
+    .cont-img-s {
+      display: block; } }
+
+.container-intro {
+  box-sizing: content-box;
+  padding: 10% 0 10% 0; }
+
+.container-intro * {
+  box-sizing: content-box; }
+
+.container-intro h2 {
+  margin: 0; }
+
+.container-intro p {
+  padding: 0 30vw 0 30vw;
+  font-size: 0.8em;
+  margin: 0; }
+
+.portfolio {
+  position: relative;
+  background-color: #aeaeaeff;
+  padding: 10vh 0; }
+
+.portfolio h1 {
+  margin: 0;
+  color: #393232ff; }
+
+.portfolio h3 {
+  color: #393232ff; }
+
+.portfolio-detail {
+  padding: 0 5vw; }
+
+.port-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr; }
+
+.port-left {
+  width: 40vw; }
+
+.port-right {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 20vh 20vh 20vh 20vh;
+  width: 45vw;
+  justify-items: center;
+  padding-top: 20vh; }
+
+.port-right-left {
+  width: 20vw;
+  display: grid; }
+
+.port-right-left > img {
+  width: 20vw; }
+
+.port-right-left > div {
+  height: 15vh; }
+
+.port-right-right {
+  display: grid;
+  width: 20vw; }
+
+.port-right-right > img {
+  width: 20vw; }
+
+.port-right-right > div {
+  height: 15vh; }
+
+footer {
+  background-color: #393232ff;
+  padding: 15vh 0 15vh 0; }
+
+footer h2 {
+  color: #aeaeaeff;
+  margin-top: 0;
+  padding-top: 20px; }
+
+.footer-flex {
+  justify-content: center;
+  display: flex;
+  flex-direction: column; }
+
+footer a {
+  padding: 0 30vw 0 30vw;
+  font-size: 2em;
+  color: #aeaeaeff;
+  text-decoration: none; }
+
+/*# sourceMappingURL=kh.css.map */

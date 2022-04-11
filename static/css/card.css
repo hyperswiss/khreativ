@@ -1,0 +1,15 @@
+.articles {
+    margin: 10em;
+}
+
+.container {
+    display: grid;
+}
+
+#articles-section card-body card-title card-subtitle cart-text {
+
+}
+
+.card {
+    min-height: 300px;
+}
